@@ -1,66 +1,66 @@
 #chart {
-    background: url(chart.jpg);
-    width: 900px;
-    height: 701px;
-    list-style-type: none;
-    position: relative;
-    padding: 0;
+  background: url(chart.jpg);
+  width: 900px;
+  height: 701px;
+  list-style-type: none;
+  position: relative;
+  padding: 0;
 }
 
 
 #chart li {
-    position: absolute;
-    background-size: 100%;
-    width: 243px;
-    height: 162px;
+  position: absolute;
+  background-size: 100%;
+  width: 243px;
+  height: 162px;
 }
 
 #chart li:nth-child(1),
 #chart li:nth-child(4),
 #chart li:nth-child(7) {
-    left: 28px;
+  left: 28px;
 }
 
 #chart li:nth-child(2),
 #chart li:nth-child(5),
 #chart li:nth-child(8) {
-    left: 329px;
+  left: 329px;
 }
 
 #chart li:nth-child(3),
 #chart li:nth-child(6),
 #chart li:nth-child(9) {
-    left: 629px;
+  left: 629px;
 }
 
 #chart li:nth-child(1),
 #chart li:nth-child(2),
 #chart li:nth-child(3) {
-    top: 19px;
+  top: 19px;
 }
 
 #chart li:nth-child(4),
 #chart li:nth-child(5),
 #chart li:nth-child(6) {
-    top: 253px;
+  top: 253px;
 }
 
 #chart li:nth-child(7),
 #chart li:nth-child(8),
 #chart li:nth-child(9) {
-    top: 489px;
+  top: 489px;
 }
 
 #linda {
-    background: url(linda.jpg);
+  background: url(linda.jpg);
 }
 
 #julia {
-    background: url(julia.jpg);
+  background: url(julia.jpg);
 }
 
 #barbie {
-    background: url(barbie.jpg);
+  background: url(barbie.jpg);
 }
 
 #joe {
@@ -84,5 +84,9 @@
 }
 
 #junior {
-    background: url(junior.jpg);
+  background: url(junior.jpg);
+}
+
+#maxine {
+  background: url(maxine.jpg);
 }

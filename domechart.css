@@ -1,5 +1,5 @@
-#chart {
-  background: url(chart.jpg);
+.chart {
+  background-image: url(chart.jpg);
   width: 900px;
   height: 701px;
   list-style-type: none;
@@ -7,90 +7,117 @@
   padding: 0;
 }
 
-
-#chart li {
+.chart li {
   position: absolute;
   background-size: 100%;
   width: 243px;
   height: 162px;
 }
 
-#chart li:nth-child(1),
-#chart li:nth-child(4),
-#chart li:nth-child(7) {
+.chart li:nth-child(1),
+.chart li:nth-child(4),
+.chart li:nth-child(7) {
   left: 28px;
 }
 
-#chart li:nth-child(2),
-#chart li:nth-child(5),
-#chart li:nth-child(8) {
+.chart li:nth-child(2),
+.chart li:nth-child(5),
+.chart li:nth-child(8) {
   left: 329px;
 }
 
-#chart li:nth-child(3),
-#chart li:nth-child(6),
-#chart li:nth-child(9) {
+.chart li:nth-child(3),
+.chart li:nth-child(6),
+.chart li:nth-child(9) {
   left: 629px;
 }
 
-#chart li:nth-child(1),
-#chart li:nth-child(2),
-#chart li:nth-child(3) {
+.chart li:nth-child(1),
+.chart li:nth-child(2),
+.chart li:nth-child(3) {
   top: 19px;
 }
 
-#chart li:nth-child(4),
-#chart li:nth-child(5),
-#chart li:nth-child(6) {
+.chart li:nth-child(4),
+.chart li:nth-child(5),
+.chart li:nth-child(6) {
   top: 253px;
 }
 
-#chart li:nth-child(7),
-#chart li:nth-child(8),
-#chart li:nth-child(9) {
+.chart li:nth-child(7),
+.chart li:nth-child(8),
+.chart li:nth-child(9) {
   top: 489px;
 }
 
 #linda {
-  background: url(linda.jpg);
+  background-image: url(linda.jpg);
 }
 
 #julia {
-  background: url(julia.jpg);
+  background-image: url(julia.jpg);
 }
 
 #barbie {
-  background: url(barbie.jpg);
+  background-image: url(barbie.jpg);
 }
 
 #joe {
-  background: url(joe.jpg);
+  background-image: url(joe.jpg);
 }
 
 #dodee {
-  background: url(dodee.jpg);
+  background-image: url(dodee.jpg);
 }
 
 #ben {
-  background: url(ben.jpg);
+  background-image: url(ben.jpg);
 }
 
 #jim {
-  background: url(jim.jpg);
+  background-image: url(jim.jpg);
 }
 
 #lester {
-  background: url(lester.jpg);
+  background-image: url(lester.jpg);
 }
 
 #junior {
-  background: url(junior.jpg);
+  background-image: url(junior.jpg);
 }
 
 #maxine {
-  background: url(maxine.jpg);
+  background-image: url(maxine.jpg);
 }
 
 #ollie {
-  background: url(ollie.jpg);
+  background-image: url(ollie.jpg);
+}
+
+#rebecca {
+  background-image: url(rebecca.jpg);
+  background-size: 258%;
+  background-position: -62px -50px;
+}
+
+#lyle {
+  background-image: url(lyle.jpg);
+  background-size: 122%;
+  background-position: -53px;  
+}
+
+#sam {
+  background-image: url(sam.jpg);
+  background-size: 133%;
+  background-position: -71px;
+}
+
+#melanie {
+  background-image: url(melanie.jpg);
+}
+
+#norrie {
+  background-image: url(norrie.jpg);
+  background-size: 176%;
+  background-position: -184px -9px;
 }
